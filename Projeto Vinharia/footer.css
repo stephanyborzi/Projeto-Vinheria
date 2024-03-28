@@ -1,0 +1,17 @@
+.rodapé{
+    background-color: #2B0810;
+    padding: 3em;
+}
+
+.lista__rodapé{
+    color: white;
+    font-family:"Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    padding-left: 15em;
+    padding-bottom: 10em;
+
+}
+.imagem__rodapé{
+    width: 15%;
+}

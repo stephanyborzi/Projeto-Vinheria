@@ -1,0 +1,73 @@
+.cabeçalho{
+    background-color:#2B0810;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding-right: 0.5em;
+    width: 1700px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+.container__imagem{
+    margin:2.75em;
+}
+
+.banner_pesquisa{
+        background-color:#FFFEFE;
+        border-radius: 10px;
+        border:1px solid #FFFEFE;
+        height: 88px;
+        padding: 1em;
+        width: 500px;
+        margin-left: 5em;
+}
+.banner_pesquisa::placeholder{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color:#7C7777;
+    text-align: center;
+    background: url(/Imgs/Cabeçalho/lupa.png);
+    background-repeat: no-repeat;
+    background-position: 0.8em;
+}
+.lista__menu{
+    display: inline-flex;
+    margin-top: 5em;
+    margin-bottom: 6em;
+    padding-left: 3em;
+}
+.menu__item2{
+    background: url(/Imgs/Cabeçalho/carrinho\ de\ compras.png);
+    background-repeat: no-repeat;
+    background-position: 2.75em;
+    background-size: 1.75em;
+}
+.menu__item3{
+    background: url(/Imgs/Cabeçalho/login.png);
+    background-repeat: no-repeat;
+    background-position: 2.75em;
+    background-size: 1.75em;
+}
+
+
+.lista__menu__links{
+    font-size: 28px;
+    padding-left: 80px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #FFF8F8;
+    font-family:"Open Sans", sans-serif;
+    font-weight: 700;
+}
+
+.container__imagem__perfil{
+    width: 4%;
+    margin-left: 2.5em;
+    padding-top: 0.01em;
+}
+

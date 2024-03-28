@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+.lista__botoes{
+    display: inline-flex;
+    margin-left: 5em;
+    padding: 2em;
+    padding-right: 5em;;
+    justify-content: center;
+}
+.opcoes{
+    background-color: #FFFFFF;
+    text-align:center;
+}
+.tópicos__texto{
+    color:#FFFFFF;
+    padding: 2em;
+}
+
+.tópicos__item{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 0.35em;
+    margin-right: 8em;
+}
+.tópicos__item__link{
+    text-decoration: none;
+    padding: 1em;
+    font-family: "MonteCarlo", cursive;
+    font-weight: 400;
+    font-size: 48px;
+    color: black;
+    
+}
+.imagem__principal{
+    width: 1700px;
+}
+   
+#principal__elementos{
+display: inline-block;
+position: relative;
+background-color: #AF2141;
+}
+
+#principal__elementos figcaption {
+  position: absolute;
+  top: 250px;
+  left: 50px;
+  font-size: 110px;
+  font-family: "MonteCarlo", cursive;
+  color:#FFFFFF;
+  text-shadow: 0px 0px 5px black;}
+
+.info{
+    background-color:#AF2141;
+    width: 1572px;
+    padding: 4em;
+}
+
+.info__elementos{
+    position:relative;
+    display: inline-flex;
+}
+.info__imagem{
+    width: 20%;
+}
+.info__texto{
+    color: #FFF8F8;
+    font-family:"Open Sans", sans-serif;
+    font-size: 32px;
+    padding-top: 3em;
+}
+.titulo__produtos{
+    background-color: #AF2141;
+    padding-bottom: 1em;
+    text-align: center;
+    font-family: "MonteCarlo", cursive;
+    color:#FFFFFF;
+    font-size: 127px;
+    width: 1700px
+}
+.produtos{
+    position:relative;
+    display: inline-flex;
+    margin: 2em;
+}
+.produtos__imagem{
+    width: 25%;
+}
+.propaganda{
+    background-color: #AF2141;
+    padding: 2em;
+    padding-left: 10em;
+    display: grid;
+    grid-template-columns: 65% 35%;
+    margin: 1em 2em 0em 0em;
+    width: 1480px;
+}
+.propaganda__imagem{
+    width: 100%;
+    margin-right: 8em;
+    padding-top: 8em;
+}
+.propaganda__titulo{
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 90px;
+    padding-top:3.5em ;
+    padding-bottom: 0.5em;
+}
+.negrito{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+.subtítulo__propaganda{
+    color:#FFFF;
+    font-family:"Open Sans", sans-serif;
+    font-size: 32px;
+    text-align:left;
+    margin-right: 5em;
+    margin-bottom: 2em;
+}
+.selecione__vinho{
+    border-radius: 10px;
+    width: 50%;
+    margin-top: 2em;
+    padding-top: 2em;
+    background-color:  #f5f5f5;;
+}
